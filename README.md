@@ -10,3 +10,4 @@
 | [003 - Longest Circular Road（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_c)       | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/3.cr)   | 81 ms    | 816 Byte  | 想定解法                   |
 | [004 - Cross Sum（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_d)                   | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/4_1.cr) | 1270 ms  | 1162 Byte | 想定解法                   |
 | [004 - Cross Sum（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_d)                   | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/4_2.cr) | 965 ms   | 1265 Byte | 想定解法（定数倍高速化済） |
+| [005 - Restricted Digits（★7）](https://atcoder.jp/contests/typical90/tasks/typical90_e)           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/5.cr)   | 856 ms   | 2929 Byte | 想定解法                   |
