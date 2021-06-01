@@ -15,6 +15,7 @@
 | [007 - CP Classes（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_g)                  | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/007.cr)    | 165 ms   | 225 Bytes  | 想定解 (番兵あり)                                       |
 | [008 - AtCounter（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_h)                   | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/008.cr)    | 15 ms    | 217 Bytes  | 想定解                                                  |
 | [009 - Three Point Angle（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_i)           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/009.cr)    | 1129 ms  | 586 Bytes  | 想定解                                                  |
+| [010 - Score Sum Queries（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_j)           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/010.cr)    | 77 ms    | 296 Bytes  | 想定解                                                  |
 
 ## リンク集
 
