@@ -1,3 +1,4 @@
+MOD = 10**9 + 7
 h, w = read_line.split.map(&.to_i)
 grid = (1..h).map { read_line }
 
@@ -14,12 +15,10 @@ hash = a.zip(0..).to_h
 next1 = a.map { |bit| hash[bit >> 1] }
 next2 = a.map { |bit| hash[bit >> 1 | 1 << w]? }
 
-MOD = 10**9 + 7
 dp = [1] + [0] * m.pred
 (0...h).each do |i|
   (0...w).each do |j|
-    dp2 = [0] * m
-    (0...m).each do |k|
+    dp = (0...m).each_with_object([0] * m) do |k, dp2|
       next if dp[k] == 0
       bit = a[k]
       dp2[n1 = next1[k]] = (dp2[n1] + dp[k]) % MOD
@@ -31,7 +30,6 @@ dp = [1] + [0] * m.pred
         dp2[n2 = next2[k].not_nil!] = (dp2[n2] + dp[k]) % MOD
       end
     end
-    dp = dp2
   end
 end
 puts dp.reduce(0) { |sum, x| (sum + x) % MOD }
