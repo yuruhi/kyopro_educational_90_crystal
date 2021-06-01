@@ -13,6 +13,7 @@
 | [006 - Smallest Subsequence（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_f)        | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/006-01.cr) | 55 ms    | 422 Bytes  | 想定解                                                  |
 | [006 - Smallest Subsequence（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_f)        | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/006-02.cr) | 41 ms    | 3148 Bytes | PriorityQueue                                           |
 | [007 - CP Classes（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_g)                  | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/007.cr)    | 165 ms   | 225 Bytes  | 想定解 (番兵あり)                                       |
+| [008 - AtCounter（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_h)                   | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/008.cr)    | 15 ms    | 217 Bytes  | 想定解                                                  |
 
 ## リンク集
 
