@@ -18,6 +18,7 @@
 | [010 - Score Sum Queries（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_j)           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/010.cr)    | 77 ms    | 296 Bytes  | 想定解                                                  |
 | [011 - Gravy Jobs（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_k)                  | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/011.cr)    | 140 ms   | 358 Bytes  | 想定解                                                  |
 | [012 - Red Painting（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_l)                | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/012.cr)    | 85 ms    | 1014 Bytes | 想定解                                                  |
+| [013 - Passing（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_m)                     | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/013.cr)    | 234 ms   | 4298 Bytes | 想定解                                                  |
 
 ## リンク集
 
