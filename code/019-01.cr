@@ -1,15 +1,10 @@
 def rec(a, memo, l, r) : Int32
-  memo[l][r] ||=
-    if l == r
-      0
-    else
-      {
-        (l + 2).step(to: r - 2, by: 2).min_of? { |mid|
-          rec(a, memo, l, mid) + rec(a, memo, mid, r)
-        } || 10**9,
-        rec(a, memo, l + 1, r - 1) + (a[l] - a[r - 1]).abs,
-      }.min
-    end
+  memo[l][r] ||= l == r ? 0 : {
+    (l + 2).step(to: r - 2, by: 2).min_of? { |mid|
+      rec(a, memo, l, mid) + rec(a, memo, mid, r)
+    } || 10**9,
+    rec(a, memo, l + 1, r - 1) + (a[l] - a[r - 1]).abs,
+  }.min
 end
 
 n = read_line.to_i
