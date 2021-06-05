@@ -5,11 +5,9 @@ class RollingHash
   MOD    = MASK61
 
   private def mul(a : UInt64, b : UInt64)
-    au, ad = a >> 31, a & MASK31
-    bu, bd = b >> 31, b & MASK31
-    mid = ad * bu + au * bd
-    midu, midd = mid >> 30, mid & MASK30
-    au * bu * 2 + midu + (midd << 31) + ad * bd
+    t = a.to_u128 * b
+    t = (t >> 61) + (t & MOD)
+    (t >= MOD ? t - MOD : t).to_u64
   end
 
   private def mod(a : UInt64)
