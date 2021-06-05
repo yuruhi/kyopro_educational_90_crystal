@@ -5,7 +5,7 @@ a = (1..n).map {
   b = read_line.split.map(&.to_i.pred)
   b.reduce(BigInt.zero) { |acc, i| acc | BigInt.new(1) << i }
 }
-s = BigInt.new read_line.delete(' ').reverse, 2
+s = read_line.delete(' ').reverse.to_big_i(2)
 
 basis = [] of BigInt
 a.each do |e|
