@@ -1,19 +1,10 @@
 class RollingHash
-  private MASK30 = (1u64 << 30) - 1
-  private MASK31 = (1u64 << 31) - 1
-  private MASK61 = (1u64 << 61) - 1
-  MOD    = MASK61
+  MOD = (1u64 << 61) - 1
 
   private def mul(a : UInt64, b : UInt64)
     t = a.to_u128 * b
     t = (t >> 61) + (t & MOD)
-    (t >= MOD ? t - MOD : t).to_u64
-  end
-
-  private def mod(a : UInt64)
-    x = (a >> 61) + (a & MASK61)
-    x -= MOD if x >= MOD
-    x
+    (t < MOD ? t : t - MOD).to_u64
   end
 
   getter size : Int32
@@ -30,13 +21,15 @@ class RollingHash
     @pow = Array(UInt64).new(size + 1, 1)
     @hash = Array(UInt64).new(size + 1, 0)
     a.each_with_index do |x, i|
-      @pow[i + 1] = mod(mul(@pow[i], base))
-      @hash[i + 1] = mod(mul(@hash[i], base) + yield(x))
+      @pow[i + 1] = mul(@pow[i], base)
+      @hash[i + 1] = mul(@hash[i], base) + yield(x)
+      @hash[i + 1] -= MOD if @hash[i + 1] >= MOD
     end
   end
 
   def [](start : Int, count : Int)
-    mod(@hash[start + count] + MOD * 4 - mul(@hash[start], @pow[count]))
+    res = @hash[start + count] + MOD - mul(@hash[start], @pow[count])
+    res < MOD ? res : res - MOD
   end
 
   def [](range : Range)
