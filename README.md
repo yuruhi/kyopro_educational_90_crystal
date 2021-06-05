@@ -64,8 +64,8 @@
 | [055 - Select 5（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_bc)                          | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/055.cr)    | ms       | Bytes      | 想定解                               |
 | [056 - Lucky Bag（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bd)                         | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/056.cr)    | ms       | Bytes      | 想定解                               |
 | [057 - Flip Flap（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_be)                         | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/057.cr)    | ms       | Bytes      | 想定解                               |
-| [058 - Original Calculator（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_bf)               | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/058.cr)    | 36 ms    | 444 Bytes  | 想定解                               |
-| [058 - Original Calculator（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_bf)               | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/058.cr)    | 66 ms    | 444 Bytes  | ダブリング                           |
+| [058 - Original Calculator（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_bf)               | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/058-01.cr) | 36 ms    | 444 Bytes  | 想定解                               |
+| [058 - Original Calculator（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_bf)               | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/058-02.cr) | 66 ms    | 444 Bytes  | ダブリング                           |
 | [059 - Many Graph Queries（★7）](https://atcoder.jp/contests/typical90/tasks/typical90_bg)                | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/059.cr)    | ms       | Bytes      | 想定解                               |
 
 ## リンク集
