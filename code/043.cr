@@ -1,63 +1,6 @@
-struct Edge(T)
-  include Comparable(Edge(T))
-
-  property to : Int32
-  property cost : T
-
-  def initialize(@to : Int32, @cost : T)
-  end
-
-  def <=>(other : Edge(T))
-    {cost, to} <=> {other.cost, other.to}
-  end
-end
-
-class Graph(T)
-  getter graph : Array(Array(Edge(T)))
-
-  def initialize(size : Int)
-    @graph = Array.new(size) { Array(Edge(T)).new }
-  end
-
-  def add_edge(i : Int, j : Int, cost : T)
-    @graph[i] << Edge.new(j, cost)
-    @graph[j] << Edge.new(i, cost)
-  end
-
-  delegate size, to: @graph
-  delegate :[], to: @graph
-
-  def bfs01(starts : Enumerable(Int32))
-    queue = Deque({Int32, T}).new
-    dist = Array(T?).new(size, nil)
-    starts.each do |start|
-      queue << {start, T.zero}
-      dist[start] = T.zero
-    end
-
-    until queue.empty?
-      v, d = queue.pop
-      dist_v = dist[v].not_nil!
-      next if dist_v < d
-      self[v].each do |edge|
-				dist_to = dist[edge.to]
-        if dist_to.nil? || dist_to.not_nil! > dist_v + edge.cost
-          dist_to = dist_v + edge.cost
-          dist[edge.to] = dist_to
-          if edge.cost == 0
-            queue.push({edge.to, dist_to})
-          else
-            queue.unshift({edge.to, dist_to})
-          end
-        end
-      end
-    end
-
-    dist
-  end
-end
-
 struct Point
+  Direction = {Point.new(0, 1), Point.new(1, 0), Point.new(0, -1), Point.new(-1, 0)}
+
   property y : Int32
   property x : Int32
 
@@ -73,7 +16,17 @@ struct Point
   end
 end
 
-Direction = {Point.new(0, 1), Point.new(1, 0), Point.new(0, -1), Point.new(-1, 0)}
+struct Vertex
+  getter p : Point
+  getter d : Int32
+
+  def initialize(@p, @d)
+  end
+
+  def to_i(w)
+    p.y * w * 4 + p.x * 4 + d
+  end
+end
 
 h, w = read_line.split.map(&.to_i)
 start, goal = {0, 1}.map {
@@ -82,31 +35,44 @@ start, goal = {0, 1}.map {
 }
 s = (1..h).map { read_line }
 
-to_vertex = ->(p : Point, d : Int32) {
-  p.y * w * 4 + p.x * 4 + d
-}
+dist = Array(Int32?).new(h * w * 4, nil)
+deque = Deque({Vertex, Int32}).new
+(0...4).each do |d|
+  e = Vertex.new(start, d)
+  dist[e.to_i(w)] = 0
+  deque << {e, 0}
+end
 
-graph = Graph(Int32).new(h * w * 4)
-(0...h).each do |y|
-  (0...w).each do |x|
-    next if s[y][x] == '#'
-    p1 = Point.new(y, x)
-
-    Direction.each_with_index do |dir, d|
-      v1 = to_vertex.call(p1, d)
-      p2 = p1 + dir
-      if p2.in_range?(h, w)
-        graph.add_edge(v1, to_vertex.call(p2, d), 0)
-      end
-      {d - 1, d + 1}.each do |d2|
-        graph.add_edge(v1, to_vertex.call(p1, d2 % 4), 1)
-      end
+add_edge = ->(dist_from : Int32, to : Vertex, cost : Int32) {
+  dist_to = dist[to.to_i(w)]
+  if dist_to.nil? || dist_to > dist_from + cost
+    dist_to = dist_from + cost
+    dist[to.to_i(w)] = dist_to
+    if cost == 0
+      deque.push({to, dist_to})
+    else
+      deque.unshift({to, dist_to})
     end
   end
+}
+
+until deque.empty?
+  v, dist_now = deque.pop
+  dist_from = dist[v.to_i(w)].not_nil!
+  next if dist_from < dist_now
+
+  d1 = v.d
+  dir = Point::Direction[v.d]
+  p1, p2 = v.p, v.p + dir
+
+  if p2.in_range?(h, w) && s[p2.y][p2.x] == '.'
+    add_edge.call(dist_from, Vertex.new(p2, d1), 0)
+  end
+  {d1 - 1, d1 + 1}.each do |d2|
+    add_edge.call(dist_from, Vertex.new(p1, d2 % 4), 1)
+  end
 end
-dist = graph.bfs01(
-  (0...4).map { |d| to_vertex.call(start, d) }
-)
+
 puts (0...4).min_of { |d|
-  dist[to_vertex.call(goal, d)].not_nil!
+  dist[Vertex.new(goal, d).to_i(w)].not_nil!
 }
