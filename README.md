@@ -72,6 +72,8 @@
 | [058 - Original Calculator（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_bf)               | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/058-01.cr) | 36 ms    | 444 Bytes  | 想定解                               |
 |                                                                                                           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/058-02.cr) | 66 ms    | 444 Bytes  | ダブリング                           |
 | [059 - Many Graph Queries（★7）](https://atcoder.jp/contests/typical90/tasks/typical90_bg)                | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/059.cr)    | ms       | Bytes      | 想定解                               |
+| [060 - Chimera（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bh)                           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/060.cr)    | 96 ms    | 321 Bytes  | 想定解                               |
+| [061 - Deck（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_bi)                              | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/061.cr)    | ms       | Bytes      | 想定解                               |
 
 ## リンク集
 
