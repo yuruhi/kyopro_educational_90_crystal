@@ -74,6 +74,10 @@
 | [059 - Many Graph Queries（★7）](https://atcoder.jp/contests/typical90/tasks/typical90_bg)                | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/059.cr)    | 632 ms   | 460 Bytes  | 想定解                               |
 | [060 - Chimera（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bh)                           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/060.cr)    | 96 ms    | 321 Bytes  | 想定解                               |
 | [061 - Deck（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_bi)                              | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/061.cr)    | 44 ms    | 175 Bytes  | 想定解                               |
+| [062 - Paint All（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_bj)                         | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/062.cr)    | 92 ms    | 469 Bytes  | 想定解                               |
+| [063 - Monochromatic Subgrid（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_bk)             | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/063.cr)    | ms       | Bytes      | 想定解                               |
+| [064 - Uplift（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_bl)                            | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/064.cr)    | ms       | Bytes      | 想定解                               |
+| [065 - RGB Balls 2（★7）](https://atcoder.jp/contests/typical90/tasks/typical90_bm)                       | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/065.cr)    | ms       | Bytes      | 想定解                               |
 
 ## リンク集
 
