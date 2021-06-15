@@ -78,7 +78,7 @@
 | [063 - Monochromatic Subgrid（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_bk)             | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/063.cr)    | 92 ms    | 300 Bytes  | 想定解                               |
 | [064 - Uplift（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_bl)                            | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/064.cr)    | 77 ms    | 368 Bytes  | 想定解                               |
 | [065 - RGB Balls 2（★7）](https://atcoder.jp/contests/typical90/tasks/typical90_bm)                       | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/065.cr)    | ms       | Bytes      | 想定解                               |
-| [066 - Various Arrays（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bn)                    | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/066.cr)    | 12 ms    | 238 Bytes  | 想定解                               |
+| [066 - Various Arrays（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bn)                    | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/066.cr)    | 14 ms    | 206 Bytes  | 想定解                               |
 
 ## リンク集
 
