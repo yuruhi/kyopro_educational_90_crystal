@@ -5,6 +5,6 @@ dp[0] = 1i64
 (1..n).each do |i|
   dp[i] += dp[i - 1]
   dp[i] += dp[i - l] if i - l >= 0
-	dp[i] %= MOD
+  dp[i] %= MOD
 end
 puts dp[n]

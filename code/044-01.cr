@@ -7,8 +7,8 @@ q.times do
   when 0
     a[(i + x) % n], a[(i + y) % n] = a[(i + y) % n], a[(i + x) % n]
   when 1
-		i -= 1
+    i -= 1
   when 2
-		puts a[(i + x) % n]
+    puts a[(i + x) % n]
   end
 end

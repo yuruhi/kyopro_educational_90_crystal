@@ -14,5 +14,5 @@ q.times do
     d[r - 1] += v
     ans += d[r - 1].abs
   end
-	puts ans
+  puts ans
 end
