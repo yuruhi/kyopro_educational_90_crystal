@@ -81,7 +81,7 @@
 | [066 - Various Arrays（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bn)                    | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/066.cr)    | 14 ms    | 206 Bytes  | 想定解                               |
 | [067 - Base 8 to 9（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_bo)                       | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/067.cr)    | ms       | Bytes      | 想定解                               |
 | [068 - Paired Information（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bp)                | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/068.cr)    | ms       | Bytes      | 想定解                               |
-| [069 - Colorful Blocks 2（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_bq)                 | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/069.cr)    | 12 ms    | 9913 Bytes | 想定解                               |
+| [069 - Colorful Blocks 2（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_bq)                 | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/069.cr)    | 11 ms    | 271 Bytes  | 想定解                               |
 | [070 - Plant Planning（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_br)                    | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/070.cr)    | ms       | Bytes      | 想定解                               |
 
 ## リンク集
