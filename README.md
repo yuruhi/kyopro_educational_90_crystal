@@ -83,6 +83,12 @@
 | [068 - Paired Information（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bp)                | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/068.cr)    | 70 ms    | 2890 Bytes | 想定解                               |
 | [069 - Colorful Blocks 2（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_bq)                 | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/069.cr)    | 11 ms    | 271 Bytes  | 想定解                               |
 | [070 - Plant Planning（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_br)                    | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/070.cr)    | 80 ms    | 142 Bytes  | 想定解                               |
+| [071 - Fuzzy Priority（★7）](https://atcoder.jp/contests/typical90/tasks/typical90_bs)                    | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/071.cr)    | ms       | Bytes      | 想定解                               |
+| [072 - Loop Railway Plan（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_bt)                 | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/072-01.cr) | 12 ms    | 1111 Bytes | 想定解 (DFS)                         |
+|                                                                                                           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/072-02.cr) | 12 ms    | 922 Bytes  | BFS                                  |
+|                                                                                                           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/072-03.cr) | 206 ms   | 1551 Bytes | bit DP                               |
+| [073 - We Need Both a and b（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bu)              | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/073.cr)    | ms       | Bytes      | 想定解                               |
+| [074 - ABC String 2（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_bv)                      | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/074.cr)    | ms       | Bytes      | 想定解                               |
 
 ## リンク集
 
