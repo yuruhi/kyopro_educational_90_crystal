@@ -19,7 +19,7 @@ class Graph
     @graph[v].each do |u|
       next if u == p
       a, b, ab = dfs(u, v)
-			val1 *= (@color[v] == 'a' ? a : b) + ab
+      val1 *= (@color[v] == 'a' ? a : b) + ab
       val2 *= a + b + ab * 2
       val1 %= MOD
       val2 %= MOD
