@@ -88,7 +88,7 @@
 |                                                                                                           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/072-02.cr) | 12 ms    | 922 Bytes  | BFS                                  |
 |                                                                                                           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/072-03.cr) | 206 ms   | 1551 Bytes | bit DP                               |
 | [073 - We Need Both a and b（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bu)              | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/073.cr)    | 89 ms    | 763 Bytes  | 想定解                               |
-| [074 - ABC String 2（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_bv)                      | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/074.cr)    | ms       | Bytes      | 想定解                               |
+| [074 - ABC String 2（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_bv)                      | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/074.cr)    | 13 ms    | 99 Bytes   | 想定解                               |
 
 ## リンク集
 
