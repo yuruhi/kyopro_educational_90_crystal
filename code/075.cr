@@ -1,19 +1,11 @@
-struct Int
-  def prime_factors
-    factors = [] of self
-    n = self
-    (self.class.new(2)..).each do |x|
-      break if x * x > self
-      while n % x == 0
-        n //= x
-        factors << x
-      end
-    end
-    factors << n if n != 1
-    factors
+n = read_line.to_i64
+now, cnt = n, 0
+(2i64..).each do |x|
+  break if x * x > n
+  while now % x == 0
+    now //= x
+    cnt += 1
   end
 end
-
-n = read_line.to_i64
-cnt = n.prime_factors.size
+cnt += 1 if now != 1
 puts Math.log2(cnt).ceil.to_i
