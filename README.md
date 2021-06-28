@@ -92,6 +92,8 @@
 | [075 - Magic For Balls（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_bw)                   | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/075.cr)    | 32 ms    | 188 Bytes  | 想定解                               |
 | [076 - Cake Cut（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_bx)                          | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/076-01.cr) | 39 ms    | 315 Bytes  | 想定解 (二分探索)                    |
 |                                                                                                           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/076-02.cr) | 46 ms    | 268 Bytes  | しゃくとり法                         |
+| [077 - Planes on a 2D Plane（★7）](https://atcoder.jp/contests/typical90/tasks/typical90_by)              | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/077.cr)    | 509 ms   | 2004 Bytes | 想定解                               |
+| [078 - Easy Graph Problem（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_bz)                | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/078.cr)    | ms       | Bytes      | 想定解                               |
 
 ## リンク集
 
