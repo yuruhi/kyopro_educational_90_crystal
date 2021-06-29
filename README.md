@@ -90,11 +90,11 @@
 | [073 - We Need Both a and b（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bu)              | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/073.cr)    | 89 ms    | 763 Bytes  | 想定解                               |
 | [074 - ABC String 2（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_bv)                      | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/074.cr)    | 13 ms    | 99 Bytes   | 想定解                               |
 | [075 - Magic For Balls（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_bw)                   | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/075.cr)    | 32 ms    | 188 Bytes  | 想定解                               |
-| [076 - Cake Cut（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_bx)                          | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/076-01.cr) | 39 ms    | 315 Bytes  | 想定解 (二分探索)                    |
+| [076 - Cake Cut（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_bx)                          | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/076-01.cr) | 39 ms    | 316 Bytes  | 想定解 (二分探索)                    |
 |                                                                                                           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/076-02.cr) | 46 ms    | 268 Bytes  | しゃくとり法                         |
 | [077 - Planes on a 2D Plane（★7）](https://atcoder.jp/contests/typical90/tasks/typical90_by)              | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/077.cr)    | 509 ms   | 2004 Bytes | 想定解                               |
 | [078 - Easy Graph Problem（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_bz)                | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/078-01.cr) | 75 ms    | 228 Bytes  | 想定解                               |
-|                                                                                                           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/078-02.cr) | 42 ms    | 146 Bytes  | 各頂点で個数をカウント               |
+|                                                                                                           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/078-02.cr) | 42 ms    | 147 Bytes  | 各頂点で個数をカウント               |
 
 ## リンク集
 

@@ -8,5 +8,5 @@ end
 
 puts (0...n).any? { |i|
   pos = (i...2*n).bsearch { |j| (culsum[j] - culsum[i]) * 10 >= sum }
-	pos && (culsum[pos] - culsum[i]) * 10 == sum
+  pos && (culsum[pos] - culsum[i]) * 10 == sum
 } ? "Yes" : "No"
