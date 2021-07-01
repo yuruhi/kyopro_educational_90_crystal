@@ -210,6 +210,7 @@ cc = Array.new(c + 1, Mint.zero)
 (n - z..b).each { |i| cb[i] = C.combination(b, i) }
 (n - x..c).each { |i| cc[i] = C.combination(c, i) }
 
-c_bc = NTT.convolution(cb, cc)
-c_abc = NTT.convolution(ca, c_bc)
-puts c_abc[n]
+ab = NTT.convolution(ca, cb)
+puts (0..n).sum { |i|
+  (ab[i]? || Mint.zero) * (cc[n - i]? || Mint.zero)
+}
