@@ -96,7 +96,7 @@
 | [078 - Easy Graph Problem（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_bz)                | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/078-01.cr) | 75 ms    | 228 Bytes  | 想定解                               |
 |                                                                                                           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/078-02.cr) | 42 ms    | 147 Bytes  | 各頂点で個数をカウント               |
 | [079 - Two by Two（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_ca)                        | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/079.cr)    | 12 ms    | 349 Bytes  | 想定解                               |
-| [080 - Let's Share Bit（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_cb)                   | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/080.cr)    | ms       | Bytes      | 想定解                               |
+| [080 - Let's Share Bit（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_cb)                   | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/080.cr)    | 157 ms   | 255 Bytes  | 想定解                               |
 
 ## リンク集
 
