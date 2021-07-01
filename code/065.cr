@@ -212,5 +212,5 @@ cc = Array.new(c + 1, Mint.zero)
 
 ab = NTT.convolution(ca, cb)
 puts (0..n).sum { |i|
-  (ab[i]? || Mint.zero) * (cc[n - i]? || Mint.zero)
+  ab.fetch(i, Mint.zero) * cc.fetch(n - i, Mint.zero)
 }
