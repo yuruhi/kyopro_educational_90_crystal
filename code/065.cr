@@ -109,11 +109,16 @@ struct Mint
 end
 
 class Combination(T)
-  def initialize
+  def initialize(initial_capacity : Int = 1)
+    initial_capacity += 1
     @size = 2
-    @factorial = [T.new(1), T.new(1)]
-    @inv = [T.zero, T.new(1)]
-    @finv = [T.new(1), T.new(1)]
+    @factorial = Array(T).new(initial_capacity)
+    @factorial << T.new(1) << T.new(1)
+    @inv = Array(T).new(initial_capacity)
+    @inv << T.zero << T.new(1)
+    @finv = Array(T).new(initial_capacity)
+    @finv << T.new(1) << T.new(1)
+    expand_until(initial_capacity)
   end
 
   private def expand_until(n : Int)
@@ -198,8 +203,7 @@ class NTT
   end
 end
 
-C = Combination(Mint).new
-
+C = Combination(Mint).new(200000)
 a, b, c, n = read_line.split.map(&.to_i)
 x, y, z = read_line.split.map(&.to_i)
 
