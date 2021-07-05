@@ -97,8 +97,11 @@
 |                                                                                                           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/078-02.cr) | 42 ms    | 147 Bytes  | 各頂点で個数をカウント               |
 | [079 - Two by Two（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_ca)                        | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/079.cr)    | 12 ms    | 349 Bytes  | 想定解                               |
 | [080 - Let's Share Bit（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_cb)                   | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/080.cr)    | 157 ms   | 255 Bytes  | 想定解                               |
-| [081 - Friendly Group（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_cc)                    | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/081.cr)    | 364 ms   | 578 Bytes | 想定解                               |
-| [082 - Counting Numbers（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_cd)                  | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/082.cr)    | ms       | Bytes      | 想定解                               |
+| [081 - Friendly Group（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_cc)                    | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/081.cr)    | 364 ms   | 578 Bytes  | 想定解                               |
+| [082 - Counting Numbers（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_cd)                  | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/082.cr)    | 9 ms     | 303 Bytes  | 想定解                               |
+|                                                                                                           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/082.cr)    | 12 ms    | 1741 Bytes | ModInt を使う                        |
+| [083 - Colorful Graph（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_ce)                    | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/083.cr)    | ms       | Bytes      | 想定解                               |
+| [084 - There are two types of characters（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_cf) | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/084.cr)    | ms       | Bytes      | 想定解                               |
 
 ## リンク集
 
