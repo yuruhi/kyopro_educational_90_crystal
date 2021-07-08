@@ -104,7 +104,7 @@
 | [084 - There are two types of characters（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_cf) | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/084.cr)    | 58 ms    | 149 Bytes  | 想定解                               |
 | [085 - Multiplication 085（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_cg)                | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/085-01.cr) | 573 ms   | 240 Bytes  | 想定解                               |
 |                                                                                                           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/085-02.cr) | 776 ms   | 130 Bytes  | 全探索                               |
-| [086 - Snuke's Favorite Arrays（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_ch)           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/086.cr)    | ms       | Bytes      | 想定解                               |
+| [086 - Snuke's Favorite Arrays（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_ch)           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/086.cr)    | 32 ms    | 327 Bytes  | 想定解                               |
 
 ## リンク集
 
