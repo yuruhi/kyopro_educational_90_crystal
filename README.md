@@ -1,5 +1,9 @@
 # kyopro_educational_90_crystal
 
+[![Crystal CI](https://github.com/yuruhi/kyopro_educational_90_crystal/workflows/test/badge.svg)](https://github.com/yuruhi/kyopro_educational_90_crystal/actions)
+
+---
+
 競プロ典型 90 問の Crystal による実装です
 
 | 問題                                                                                                      | リンク                                                                                       | 実行時間 | コード長   | 解法                                 |
