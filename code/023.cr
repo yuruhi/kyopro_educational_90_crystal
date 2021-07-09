@@ -2,7 +2,7 @@ MOD = 10**9 + 7
 h, w = read_line.split.map(&.to_i)
 grid = (1..h).map { read_line }
 
-a = (1..w).reduce([[0], [1], [] of Int32, [] of Int32]) { |(a00, a01, a10, a11), i|
+a = (1..w).reduce([[0], [1], [] of Int32, [] of Int32]) { |(a00, a01, a10, a11), _|
   b00 = (a00 + a01).map { |x| x << 1 }
   b01 = a00.map { |x| x << 1 | 1 }
   b10 = (a10 + a11).map { |x| x << 1 }

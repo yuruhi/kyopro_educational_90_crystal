@@ -19,4 +19,4 @@ a.reject!(&.none?).sort_by!(&.index(true).not_nil!)
 a.each do |b|
   (0...m).each { |i| s[i] ^= b[i] } if s[b.index(true).not_nil!]
 end
-puts s.none? ? count0.times.reduce(1i64) { |acc, x| acc * 2 % 998244353 } : 0
+puts s.none? ? count0.times.reduce(1i64) { |acc, _| acc * 2 % 998244353 } : 0

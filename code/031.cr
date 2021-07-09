@@ -5,7 +5,7 @@ class Array(T)
       return result if result < i
       result = i.succ
     end
-    return result
+    result
   end
 end
 

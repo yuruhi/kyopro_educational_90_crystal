@@ -21,7 +21,7 @@ class BipartiteMatching
         return true
       end
     end
-    return false
+    false
   end
 
   def solve : Int32

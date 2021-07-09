@@ -5,7 +5,7 @@ column_sum = a.transpose.map(&.sum)
 
 # Enumerable#join(separator, io : IO) は今のバージョンでは非推奨
 (0...h).join('\n', STDOUT) do |i, io|
-  (0...w).join(' ', STDOUT) { |j, io|
+  (0...w).join(' ', io) { |j, io|
     io << row_sum[i] + column_sum[j] - a[i][j]
   }
 end

@@ -123,6 +123,7 @@ m.times do
   a, b = read_line.split.map(&.to_i.pred)
   scc.add_edge(a, b)
 end
-puts scc.scc.map(&.size).sum { |i|
-  i.to_i64 * i.pred // 2
+puts scc.scc.sum { |group|
+  i = group.size.to_i64
+  i * i.pred // 2
 }

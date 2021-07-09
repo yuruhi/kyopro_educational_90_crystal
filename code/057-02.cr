@@ -16,4 +16,4 @@ basis.sort.reverse_each do |b|
   i = (0...m).reverse_each.find { |i| b.bit(i) == 1 }.not_nil!
   s ^= b if s.bit(i) == 1
 end
-puts s.zero? ? (n - basis.size).times.reduce(1i64) { |acc, x| acc * 2 % 998244353 } : 0
+puts s.zero? ? (n - basis.size).times.reduce(1i64) { |acc, _| acc * 2 % 998244353 } : 0

@@ -15,8 +15,7 @@ module Geometric
   struct Vec2
     include Comparable(Vec2)
 
-    property x : Real
-    property y : Real
+    property x : Real, y : Real
 
     def self.zero
       Vec2.new(Real.zero, Real.zero)

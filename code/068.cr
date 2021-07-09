@@ -87,7 +87,7 @@ query = [] of {Int32, Int32, Int64, Bool}
 dsu = AtCoder::DSU.new(n.to_i64)
 sum = Array(Int64?).new(n - 1, nil)
 
-q.times do |i|
+q.times do
   t, x, y, v = read_line.split.map(&.to_i)
   x -= 1; y -= 1; v = v.to_i64
   if t == 0

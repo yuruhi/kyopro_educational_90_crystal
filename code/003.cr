@@ -34,6 +34,6 @@ n.pred.times do
   graph.add_edge(a, b)
 end
 
-v1 = graph.tree_depth(0).each_with_index.max[1]
-dist, v2 = graph.tree_depth(v1).each_with_index.max
+_, v = graph.tree_depth(0).each_with_index.max
+dist, _ = graph.tree_depth(v).each_with_index.max
 puts dist + 1
