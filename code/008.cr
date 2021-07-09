@@ -1,4 +1,4 @@
-n = read_line.to_i
+read_line
 s = read_line
 
 atcoder = "?atcoder"

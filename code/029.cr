@@ -226,8 +226,8 @@ module AtCoder
 end
 
 op = ->(x : Int32, y : Int32) { {x, y}.max }
-mapping = ->(f : Int32, s : Int32) { f }
-composition = ->(f : Int32, g : Int32) { f }
+mapping = ->(f : Int32, _s : Int32) { f }
+composition = ->(f : Int32, _g : Int32) { f }
 
 w, n = read_line.split.map(&.to_i)
 seg = AtCoder::LazySegTree(Int32, Int32).new([0] * w, op, mapping, composition)

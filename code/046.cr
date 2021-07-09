@@ -1,4 +1,4 @@
-n = read_line.to_i
+read_line
 a = (1..3).map {
   b = read_line.split.map(&.to_i.%(46))
   (0...46).map { |i| b.count(i) }

@@ -1,6 +1,6 @@
 n, m = read_line.split.map(&.to_i)
 a = (1..n).map {
-  t = read_line.to_i
+  read_line
   b = read_line.split.map(&.to_i.pred)
   b.each_with_object([false] * m) { |i, flag| flag[i] = true }
 }

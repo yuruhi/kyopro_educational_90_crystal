@@ -1,4 +1,4 @@
-n = read_line.to_i
+read_line
 a = [-2*10**9] + read_line.split.map(&.to_i).sort + [2*10**9]
 read_line.to_i.times do
   b = read_line.to_i

@@ -32,7 +32,7 @@ end
 n, m = read_line.split.map(&.to_i)
 g = UnweightedGraph.new(n + m)
 m.times do |i|
-  k = read_line.to_i
+  read_line
   a = read_line.split.map(&.to_i.pred)
   a.each do |j|
     g.add_edge(j, n + i)

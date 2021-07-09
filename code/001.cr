@@ -1,4 +1,4 @@
-n, l = read_line.split.map(&.to_i)
+_, l = read_line.split.map(&.to_i)
 k = read_line.to_i
 a = read_line.split.map(&.to_i) + [l]
 puts (1..10**9).bsearch { |len|
