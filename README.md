@@ -105,6 +105,8 @@
 | [085 - Multiplication 085（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_cg)                | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/085-01.cr) | 573 ms   | 240 Bytes  | 想定解                               |
 |                                                                                                           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/085-02.cr) | 776 ms   | 130 Bytes  | 全探索                               |
 | [086 - Snuke's Favorite Arrays（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_ch)           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/086.cr)    | 32 ms    | 327 Bytes  | 想定解                               |
+| [087 - Chokudai's Demand（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_ci)                 | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/087.cr)    | 34 ms    | 640 Bytes  | 想定解                               |
+| [088 - Similar but Different Ways（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_cj)        | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/088.cr)    | ms       | Bytes      | 想定解                               |
 
 ## リンク集
 
