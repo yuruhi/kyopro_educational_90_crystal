@@ -11,7 +11,7 @@ def lis(a)
   end
 end
 
-n = read_line.to_i
+read_line
 a = read_line.split.map(&.to_i)
 lis1, lis2 = lis(a), lis(a.reverse).reverse
 puts lis1.zip(lis2).max_of { |x, y| x + y - 1 }
