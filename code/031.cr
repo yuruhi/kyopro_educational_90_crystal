@@ -20,7 +20,7 @@ grundy = Hash({Int32, Int32}, Int32).new { |hash, (w, b)|
   end
 }
 
-read_line.to_i
+read_line
 w = read_line.split.map(&.to_i)
 b = read_line.split.map(&.to_i)
 puts w.zip(b).reduce(0) { |acc, (w, b)|
