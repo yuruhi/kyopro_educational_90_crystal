@@ -1,0 +1,5 @@
+Performance/ChainedCallWithNoBang:
+    Enabled: false
+
+Lint/ShadowingOuterLocalVar:
+    Enabled: false

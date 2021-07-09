@@ -1,0 +1,13 @@
+name: kyopro_educational_90
+version: 1.0.0
+
+authors:
+    - yuruhiya
+
+description: |
+    Implementation of kyopro_educational_90 in Crystal language
+
+dependencies:
+    ameba:
+        github: crystal-ameba/ameba
+        version: ~> 0.13.0
