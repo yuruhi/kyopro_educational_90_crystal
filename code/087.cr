@@ -24,7 +24,7 @@ upper = (1..10**9).bsearch { |x| count(a, p, x) < k }
 if lower && upper
   puts upper - lower
 elsif lower.nil?
-	puts 0
+  puts 0
 else
   puts "Infinity"
 end
