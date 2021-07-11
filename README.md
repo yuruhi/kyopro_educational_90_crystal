@@ -111,6 +111,7 @@
 | [086 - Snuke's Favorite Arrays（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_ch)           | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/086.cr)    | 32 ms    | 327 Bytes  | 想定解                               |
 | [087 - Chokudai's Demand（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_ci)                 | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/087.cr)    | 34 ms    | 641 Bytes  | 想定解                               |
 | [088 - Similar but Different Ways（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_cj)        | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/088.cr)    | 24 ms    | 790 Bytes  | 想定解                               |
+| [089 - Partitions and Inversions（★7）](https://atcoder.jp/contests/typical90/tasks/typical90_ck)         | [<u>■</u>](https://github.com/yuruhi/kyopro_educational_90_crystal/blob/main/code/089.cr)    | 131 ms   | 1252 Bytes | 想定解                               |
 
 ## リンク集
 
